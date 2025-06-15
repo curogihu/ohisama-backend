@@ -2,6 +2,7 @@ from django.db import models
 from .agency import Agency
 
 class Member(models.Model):
+    id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
     nickname = models.CharField(max_length=100, blank=True, null=True)
     birthday = models.DateField(blank=True, null=True)
