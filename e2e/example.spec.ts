@@ -44,10 +44,12 @@ test('get started link 123', async ({ page }) => {
 
 
 test('get started link 234', async ({ page }) => {
-  await page.goto('https://tver.jp/talents/t0386db/episodes');
+  await page.goto('https://tver.jp/talents/t0502d5/episodes');
   await page.waitForTimeout(5000);
 
   await page.getByRole('button', { name: '同意する' }).click();
+
+  // await page.wait
 
   // 配信中エピソードのリンクすべてを取得
   await page.waitForSelector('main a[href^="/episodes/"]');
@@ -67,6 +69,14 @@ test('get started link 234', async ({ page }) => {
     const c = await link.locator('div').nth(6).textContent();
     const d = await link.locator('div').nth(7).textContent();
 
-    console.log(`[${i}] ${a}, ${b}, ${c}, ${d}`);
+    const title = await link.locator('div').nth(5).textContent();
+    const sub_title = await link.locator('div').nth(5).textContent();
+    const broadcasting_station = await link.locator('div').nth(6).textContent();
+    const expected_end_date = await link.locator('div').nth(7).textContent();
+
+    const url = await link.getAttribute("href");
+    // console.log(`[${i}] ${url}`);
+
+    console.log(`[${i}] ${url}: ${title}, ${sub_title}, ${broadcasting_station}, ${expected_end_date}`);
   }
 });
