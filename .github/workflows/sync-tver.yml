@@ -1,0 +1,67 @@
+name: Sync content.tver.ts to ohisama-portal
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/content.tver.ts'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read  # このrepoのcheckout用
+
+    steps:
+      - name: Checkout source (ohisama-backend)
+        uses: actions/checkout@v4
+
+      - name: Keep the file ready
+        run: |
+          mkdir -p tmp
+          cp data/content.tver.ts tmp/content.tver.ts
+
+      - name: Checkout target (ohisama-portal)
+        uses: actions/checkout@v4
+        with:
+          repository: curogihu/ohisama-portal
+          token: ${{ secrets.PORTAL_REPO_TOKEN }}
+          path: portal
+          fetch-depth: 0
+
+      - name: Copy file into target repo (create if missing)
+        run: |
+          mkdir -p portal/data
+          cp -f tmp/content.tver.ts portal/data/content.tver.ts
+
+      - name: Commit only when there are changes
+        working-directory: portal
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 変更がなければ早期終了
+          if git diff --quiet -- data/content.tver.ts; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          # PR用ブランチを作ってコミット
+          BRANCH="chore/sync-tver-${{ github.run_id }}"
+          git checkout -B "$BRANCH"
+          git add data/content.tver.ts
+          git commit -m "chore: sync content.tver.ts from ohisama-backend@${{ github.sha }}"
+
+      - name: Create Pull Request on target repo
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PORTAL_REPO_TOKEN }}
+          path: portal
+          branch: chore/sync-tver-${{ github.run_id }}
+          base: main
+          title: "chore: sync content.tver.ts from backend"
+          commit-message: "chore: sync content.tver.ts from ohisama-backend@${{ github.sha }}"
+          body: |
+            Automated sync from **ohisama-backend**.
+            Source commit: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
