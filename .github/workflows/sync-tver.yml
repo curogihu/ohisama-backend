@@ -1,11 +1,10 @@
 name: Sync content.tver.ts to ohisama-portal
 
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - 'data/content.tver.ts'
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["Update TVer content"]  # ← update-tver-content.yml の name と一致させる
+    types: [completed]
+  workflow_dispatch: {}  # 手動でも実行できるようにする（任意）
 
 jobs:
   sync:
