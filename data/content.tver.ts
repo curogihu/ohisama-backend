@@ -108,19 +108,6 @@ export const content: Content[] = [
   },
   {
     "id": "tver-009",
-    "title": "オードリーのNFL倶楽部",
-    "type": "movie",
-    "members": [
-      "yamaguti-haruyo"
-    ],
-    "url": "https://tver.jp/episodes/ep5au4aclw",
-    "platform": "TVer",
-    "description": "10月3日(金)16:59 終了予定\n毎週NFLの見どころ・スーパープレーをオードリーの若林、春日がご紹介！新人アナウンサー・五十嵐にいかと共にアメフト界を盛り上げます！！",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/10/03"
-  },
-  {
-    "id": "tver-010",
     "title": "バナナマンのせっかくグルメ!!",
     "type": "movie",
     "members": [
@@ -133,7 +120,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-011",
+    "id": "tver-010",
     "title": "バナナマンのせっかくグルメ!!",
     "type": "movie",
     "members": [
@@ -146,7 +133,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-012",
+    "id": "tver-011",
     "title": "THE突破ファイル",
     "type": "movie",
     "members": [
@@ -159,7 +146,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-013",
+    "id": "tver-012",
     "title": "恋フレ ～恋人未満がちょうどいい～",
     "type": "movie",
     "members": [
@@ -172,7 +159,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-014",
+    "id": "tver-013",
     "title": "恋フレ ～恋人未満がちょうどいい～",
     "type": "movie",
     "members": [
@@ -185,7 +172,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-015",
+    "id": "tver-014",
     "title": "出川サンド伊達のやんちゃごはん～すばらしきバカ舌貴族の晩餐会～",
     "type": "movie",
     "members": [
@@ -199,7 +186,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-016",
+    "id": "tver-015",
     "title": "あなたの恋人、強奪します。",
     "type": "movie",
     "members": [
@@ -212,7 +199,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-017",
+    "id": "tver-016",
     "title": "雨上がりの僕らについて",
     "type": "movie",
     "members": [
@@ -225,7 +212,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-018",
+    "id": "tver-017",
     "title": "孤独のグルメ Season10",
     "type": "movie",
     "members": [
@@ -238,7 +225,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-019",
+    "id": "tver-018",
     "title": "晩酌の流儀４",
     "type": "movie",
     "members": [
@@ -251,7 +238,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-020",
+    "id": "tver-019",
     "title": "ブラザー・トラップ",
     "type": "movie",
     "members": [
@@ -264,7 +251,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-021",
+    "id": "tver-020",
     "title": "ＬＩＦＥ　ＩＳ　ＭＯＮＥＹ～世の中お金で見てみよう～",
     "type": "movie",
     "members": [
@@ -277,7 +264,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-022",
+    "id": "tver-021",
     "title": "雨上がりの僕らについて",
     "type": "movie",
     "members": [
@@ -290,7 +277,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-023",
+    "id": "tver-022",
     "title": "雨上がりの僕らについて",
     "type": "movie",
     "members": [
@@ -303,7 +290,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-024",
+    "id": "tver-023",
     "title": "秋のおすすめ映画紹介",
     "type": "movie",
     "members": [
@@ -316,7 +303,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-025",
+    "id": "tver-024",
     "title": "ブラザー・トラップ",
     "type": "movie",
     "members": [
@@ -329,7 +316,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-026",
+    "id": "tver-025",
     "title": "あなたの恋人、強奪します。",
     "type": "movie",
     "members": [
@@ -342,7 +329,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-027",
+    "id": "tver-026",
     "title": "あなたの恋人、強奪します。",
     "type": "movie",
     "members": [
@@ -355,7 +342,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-028",
+    "id": "tver-027",
     "title": "ブラザー・トラップ",
     "type": "movie",
     "members": [
@@ -368,7 +355,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-029",
+    "id": "tver-028",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -382,7 +369,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-030",
+    "id": "tver-029",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -396,7 +383,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-031",
+    "id": "tver-030",
     "title": "有吉の深掘り大調査",
     "type": "movie",
     "members": [
@@ -411,7 +398,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-032",
+    "id": "tver-031",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -425,7 +412,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-033",
+    "id": "tver-032",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -439,7 +426,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-034",
+    "id": "tver-033",
     "title": "ザ！世界仰天ニュース",
     "type": "movie",
     "members": [
@@ -454,7 +441,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-035",
+    "id": "tver-034",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -468,7 +455,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-036",
+    "id": "tver-035",
     "title": "有吉の深掘り大調査",
     "type": "movie",
     "members": [
@@ -483,7 +470,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-037",
+    "id": "tver-036",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -497,7 +484,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-038",
+    "id": "tver-037",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -510,7 +497,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-039",
+    "id": "tver-038",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -523,7 +510,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-040",
+    "id": "tver-039",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -536,7 +523,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-041",
+    "id": "tver-040",
     "title": "シナントロープ",
     "type": "movie",
     "members": [
@@ -549,7 +536,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-042",
+    "id": "tver-041",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -562,7 +549,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-043",
+    "id": "tver-042",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -575,7 +562,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-044",
+    "id": "tver-043",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -588,7 +575,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-045",
+    "id": "tver-044",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -601,7 +588,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-046",
+    "id": "tver-045",
     "title": "シナントロープ",
     "type": "movie",
     "members": [
@@ -614,7 +601,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-047",
+    "id": "tver-046",
     "title": "シナントロープ",
     "type": "movie",
     "members": [
@@ -627,7 +614,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-048",
+    "id": "tver-047",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -640,7 +627,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-049",
+    "id": "tver-048",
     "title": "aimaiMe",
     "type": "movie",
     "members": [
@@ -654,7 +641,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-050",
+    "id": "tver-049",
     "title": "チャーハン大捜査線(ラヴィット！)",
     "type": "movie",
     "members": [
@@ -667,7 +654,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-051",
+    "id": "tver-050",
     "title": "大須テレビ",
     "type": "movie",
     "members": [
@@ -680,7 +667,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-052",
+    "id": "tver-051",
     "title": "有吉ぃぃeeeee！～そうだ！今からお前んチでゲームしない？",
     "type": "movie",
     "members": [
@@ -693,7 +680,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-053",
+    "id": "tver-052",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
@@ -706,7 +693,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-054",
+    "id": "tver-053",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
@@ -719,7 +706,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-055",
+    "id": "tver-054",
     "title": "バズリズム02",
     "type": "movie",
     "members": [
@@ -732,7 +719,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-056",
+    "id": "tver-055",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
@@ -745,7 +732,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-057",
+    "id": "tver-056",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
@@ -758,7 +745,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-058",
+    "id": "tver-057",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
@@ -771,7 +758,7 @@ export const content: Content[] = [
     "publishDate": "2025/10/03"
   },
   {
-    "id": "tver-059",
+    "id": "tver-058",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
