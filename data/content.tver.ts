@@ -311,7 +311,7 @@ export const content: Content[] = [
     ],
     "url": "https://tver.jp/episodes/eppzyuefom",
     "platform": "TVer",
-    "description": "配信終了まで1週間以上\nLast「わたしを変えてくれたひと」",
+    "description": "10月10日(金)21:59 終了予定\nLast「わたしを変えてくれたひと」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
     "publishDate": "2025/10/03"
   },
@@ -350,7 +350,7 @@ export const content: Content[] = [
     ],
     "url": "https://tver.jp/episodes/epv0wgpo3b",
     "platform": "TVer",
-    "description": "配信終了まで1週間以上\nTrap１「出会ってしまった特別な人」",
+    "description": "10月10日(金)21:59 終了予定\nTrap１「出会ってしまった特別な人」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
     "publishDate": "2025/10/03"
   },
