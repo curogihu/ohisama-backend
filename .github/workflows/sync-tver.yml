@@ -8,11 +8,18 @@ on:
 
 jobs:
   sync:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     permissions:
-      contents: read  # このrepoのcheckout用
 
     steps:
+      - name: Assert secret exists
+        run: |
+          if [ -z "${{ secrets.PORTAL_REPO_TOKEN }}" ]; then
+            echo "ERROR: Secret PORTAL_REPO_TOKEN is missing or empty in ohisama-backend."
+            exit 1
+          fi
+
       - name: Checkout source (ohisama-backend)
         uses: actions/checkout@v4
 
