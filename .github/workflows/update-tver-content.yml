@@ -1,0 +1,59 @@
+name: Update TVer content
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # JST 朝6時ごろ（= UTC 前日21:00）。好みで変えてOK
+    - cron: '0 21 * * *'
+
+permissions:
+  contents: write   # ← 直pushに必要
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo           # publishDateの整合用（Intlに影響）
+      CI: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      # Playwright のブラウザと依存を入れる（chromiumのみでOK）
+      - name: Install Playwright (chromium)
+        run: npx playwright install --with-deps chromium
+
+      # 必要ならテストタイムアウトを長めに
+      - name: Run Playwright test to build content.tver.ts
+        run: npx playwright test e2e/example.spec.ts --reporter=list
+
+      # 変更がある時だけ commit & push
+      - name: Commit & Push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 生成物だけをステージ
+          git add data/content.tver.ts
+
+          # 変更がなければ終了
+          if git diff --cached --quiet; then
+            echo "No changes in data/content.tver.ts"
+            exit 0
+          fi
+
+          git commit -m "chore(data): update TVer content [skip ci]"
+          git push

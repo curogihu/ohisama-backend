@@ -1,82 +1,161 @@
 import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+import fs from 'node:fs';
+import path from 'node:path';
+import { parse } from 'csv-parse/sync';
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
+type CsvRow = { member_id: string; talent_id: string; talent_name: string };
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+// === 設定 ===
+const CSV_PATH = path.resolve(__dirname, '../data/target_talents.csv');     // CSVの場所
+const OUT_TS   = path.resolve(__dirname, '../data/content.tver.ts');       // 出力TS
+const THUMB    = '/placeholder.svg?height=180&width=320';
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-});
-
-
-test('get started link 123', async ({ page }) => {
-  await page.goto('https://tver.jp/talents/t0386db');
-
-  await page.getByRole('button', { name: '同意する' }).click();
-
-  await page.waitForTimeout(1000);
-
-  await page.getByRole('button', { name: '次へ' }).click();
-  await page.getByRole('button', { name: '次へ' }).click();
-  await page.getByRole('button', { name: '次へ' }).click();
-  await page.getByRole('button', { name: '次へ' }).click();
-  // const heading = await page.getByText('配信中エピソード');
-  const links = await page.getByRole('link').all();
-
-  console.log(links);
-
-  // // Click the get started link.
-  // await page.getByRole('link', { name: 'Get started' }).click();
-
-  // // Expects page to have a heading with the name of Installation.
-  // await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-  
-});
+type Content = {
+  id: string;
+  title: string;
+  type: 'movie';
+  members: string[];   // talent_id の配列
+  url: string;
+  platform: 'TVer';
+  description: string;
+  thumbnail: string;
+  publishDate: string; // YYYY/MM/DD
+};
 
 
-test('get started link 234', async ({ page }) => {
-  await page.goto('https://tver.jp/talents/t0502d5/episodes');
-  await page.waitForTimeout(5000);
+// --- CSV読み込み ---
+function loadTargets(csvPath: string): CsvRow[] {
+  const csv = fs.readFileSync(csvPath, 'utf-8');
+  return parse(csv, { columns: true, skip_empty_lines: true, trim: true }) as CsvRow[];
+}
 
-  await page.getByRole('button', { name: '同意する' }).click();
+// ===================== ここからテスト本体 =====================
+test.describe.configure({ mode: 'serial' }); // 直列で安全に回す
 
-  // await page.wait
+// --- 収集結果をTSに書き出し ---
+function writeTs(items: Content[], outPath: string) {
+  const header = `import type { Content } from "../types/member";\n\n`;
+  const body = `export const content: Content[] = ${JSON.stringify(items, null, 2)};\n`;
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, header + body, 'utf-8');
+  console.log(`\n✅ Wrote ${items.length} items → ${outPath}`);
+}
 
-  // 配信中エピソードのリンクすべてを取得
-  await page.waitForSelector('main a[href^="/episodes/"]');
+test('build TVer Content[] and emit TS', async ({ page }) => {
+  const targets = loadTargets(CSV_PATH);
 
-  // const links = await page.locator('main a[href^="/episodes/"]').nth(0).locator('div').nth(7);
-  const links = await page.locator('main a[href^="/episodes/"]');
-  const count = await links.count();
+  const out: Content[] = [];
+  const indexByUrl = new Map<string, number>();  // URL -> out配列のインデックス
 
-  console.log(count);
+  let seq = 1;
 
-  for (let i = 0; i < count; i++) {
-    const link = links.nth(i);
+  for (const t of targets) {
+    const listUrl = `https://tver.jp/talents/${t.talent_id}/episodes`;
+    console.log(`\n▶ ${t.talent_name} (${t.talent_id}) → ${listUrl}`);
 
-    // 各リンク内の2番目の<div>を取得（indexは0ベースなので1）
-    const a = await link.locator('div').nth(4).textContent();
-    const b = await link.locator('div').nth(5).textContent();
-    const c = await link.locator('div').nth(6).textContent();
-    const d = await link.locator('div').nth(7).textContent();
+    await page.goto(listUrl, { timeout: 30_000 });
+    await page.waitForTimeout(15000);
 
-    const title = await link.locator('div').nth(5).textContent();
-    const sub_title = await link.locator('div').nth(5).textContent();
-    const broadcasting_station = await link.locator('div').nth(6).textContent();
-    const expected_end_date = await link.locator('div').nth(7).textContent();
+    const agreeButton = page.getByRole('button', { name: '同意する' });
+    
+    if (await agreeButton.count() > 0) {
+      await agreeButton.click();
+    }
 
-    const url = await link.getAttribute("href");
-    // console.log(`[${i}] ${url}`);
+    // await page.waitForSelector('main a[href^="/episodes/"]');
 
-    console.log(`[${i}] ${url}: ${title}, ${sub_title}, ${broadcasting_station}, ${expected_end_date}`);
+    const episodesSelector = 'main a[href^="/episodes/"]';
+
+    const firstLink = await page
+      .waitForSelector(episodesSelector, { timeout: 1500 }) // ←短めに
+      .catch(() => null);
+
+    // 見つからなければ次へ
+    if (!firstLink) {
+      console.log(`no episodes: ${t.talent_name} → skip`);
+      continue;
+    }
+
+    // const links = await page.locator('main a[href^="/episodes/"]').nth(0).locator('div').nth(7);
+    const links = await page.locator('main a[href^="/episodes/"]');
+    const count = await links.count();
+
+    console.log(count);
+
+    for (let i = 0; i < count; i++) {
+      const link = links.nth(i);
+
+      // 各リンク内の2番目の<div>を取得（indexは0ベースなので1）
+      const title = await link.locator('div').nth(4).textContent();
+      const sub_title = await link.locator('div').nth(5).textContent();
+      const broadcast_date = await link.locator('div').nth(6).textContent();
+      const expected_end_date = await link.locator('div').nth(7).textContent();
+
+      let url = await link.getAttribute("href") ?? '';
+      const modified_url = 'https://tver.jp' + url;
+      const modified_title = title ?? ''; 
+      const modified_member_id = t.member_id ?? '';
+      const modified_expected_end_date = expected_end_date ?? ''; 
+
+      // ここから重複判定
+      const existedIdx = indexByUrl.get(modified_url);
+
+      // out.push({
+      //   id: `tver-${String(seq).padStart(3, '0')}`,
+      //   title: modified_title,
+      //   type: "movie",
+      //   members: [modified_member_id],
+      //   url: modified_url,
+      //   platform: "TVer",
+      //   description: [modified_expected_end_date, sub_title]
+      //     .map(v => (v ?? '').trim())      // null対策 + trim
+      //     .filter(Boolean)                 // 空文字を除外
+      //     .join('\n'),                      // 必要なときだけスペースで結合
+      //   thumbnail: "/placeholder.svg?height=180&width=320",
+      //   publishDate: new Intl.DateTimeFormat('ja-JP', {
+      //     timeZone: 'Asia/Tokyo',
+      //     year: 'numeric',
+      //     month: '2-digit',
+      //     day: '2-digit',
+      //   }).format(new Date()),
+      // });
+
+      // seq++;
+
+      if (existedIdx !== undefined) {
+  // 既存要素がある → members にIDを追加（重複は避ける）
+  const m = out[existedIdx].members;
+  if (modified_member_id && !m.includes(modified_member_id)) {
+    m.push(modified_member_id);
   }
+    // title/description/publishDate などは既存を優先（必要なら更新ロジックを足す）
+  } else {
+    // 新規 → 追加してインデックスを登録
+    out.push({
+      id: `tver-${String(seq).padStart(3, '0')}`,
+      title: modified_title,
+      type: "movie",
+      members: modified_member_id ? [modified_member_id] : [],
+      url: modified_url,
+      platform: "TVer",
+        description: [modified_expected_end_date, sub_title]
+          .map(v => (v ?? '').trim())      // null対策 + trim
+          .filter(Boolean)                 // 空文字を除外
+          .join('\n'),                      // 必要なときだけスペースで結合
+      thumbnail: "/placeholder.svg?height=180&width=320",
+      publishDate: new Intl.DateTimeFormat('ja-JP', {
+        timeZone: 'Asia/Tokyo',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+      }).format(new Date()),
+    });
+    indexByUrl.set(modified_url, out.length - 1);
+    seq++; // 新規追加のときだけ連番を進める
+  }
+    }
+  }
+
+  writeTs(out, OUT_TS);
 });
