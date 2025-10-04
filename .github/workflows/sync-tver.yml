@@ -1,74 +1,50 @@
-name: Sync content.tver.ts to ohisama-portal
+name: Sync TVer content to portal
 
 on:
   workflow_run:
-    workflows: ["Update TVer content"]  # ← update-tver-content.yml の name と一致させる
+    workflows: ["Update TVer content"]  # ← update-tver-content.yml の name と厳密一致
     types: [completed]
-  workflow_dispatch: {}  # 手動でも実行できるようにする（任意）
+  workflow_dispatch: {}  # 手動実行も可
 
 jobs:
   sync:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
 
     steps:
-      - name: Assert secret exists
-        run: |
-          if [ -z "${{ secrets.PORTAL_REPO_TOKEN }}" ]; then
-            echo "ERROR: Secret PORTAL_REPO_TOKEN is missing or empty in ohisama-backend."
-            exit 1
-          fi
-
       - name: Checkout source (ohisama-backend)
         uses: actions/checkout@v4
 
-      - name: Keep the file ready
+      - name: Prepare file
         run: |
+          test -f data/content.tver.ts
           mkdir -p tmp
-          cp data/content.tver.ts tmp/content.tver.ts
+          cp -f data/content.tver.ts tmp/content.tver.ts
 
-      - name: Checkout target (ohisama-portal)
+      - name: Checkout target (ohisama-portal) with PAT
         uses: actions/checkout@v4
         with:
           repository: curogihu/ohisama-portal
+          ref: main
           token: ${{ secrets.PORTAL_REPO_TOKEN }}
           path: portal
-          fetch-depth: 0
 
-      - name: Copy file into target repo (create if missing)
-        run: |
-          mkdir -p portal/data
-          cp -f tmp/content.tver.ts portal/data/content.tver.ts
+      - name: Avoid token header clash (recommended)
+        run: git config --global --unset-all http.https://github.com/.extraheader || true
+        # 別リポ push 時に GITHUB_TOKEN の extraheader が邪魔するケース対策
 
-      - name: Commit only when there are changes
+      - name: Reset to remote main (clean working tree)
         working-directory: portal
         run: |
+          git fetch --prune origin main
+          git checkout -B main origin/main
+
+      - name: Overwrite file and push
+        run: |
+          cp -f tmp/content.tver.ts portal/data/content.tver.ts
+          cd portal
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # 変更がなければ早期終了
-          if git diff --quiet -- data/content.tver.ts; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          # PR用ブランチを作ってコミット
-          BRANCH="chore/sync-tver-${{ github.run_id }}"
-          git checkout -B "$BRANCH"
           git add data/content.tver.ts
-          git commit -m "chore: sync content.tver.ts from ohisama-backend@${{ github.sha }}"
-
-      - name: Create Pull Request on target repo
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.PORTAL_REPO_TOKEN }}
-          path: portal
-          branch: chore/sync-tver-${{ github.run_id }}
-          base: main
-          title: "chore: sync content.tver.ts from backend"
-          commit-message: "chore: sync content.tver.ts from ohisama-backend@${{ github.sha }}"
-          body: |
-            Automated sync from **ohisama-backend**.
-            Source commit: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
+          git commit -m "chore(sync): overwrite content.tver.ts from backend [skip ci]" || echo "No changes"
+          git push origin HEAD:main
