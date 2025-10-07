@@ -36,7 +36,7 @@ test.describe.configure({ mode: 'serial' }); // 直列で安全に回す
 // --- 収集結果をTSに書き出し ---
 function writeTs(items: Content[], outPath: string) {
   const header = `import type { Content } from "../types/member";\n\n`;
-  const body = `export const content: Content[] = ${JSON.stringify(items, null, 2)};\n`;
+  const body = `export const tverContent: Content[] = ${JSON.stringify(items, null, 2)};\n`;
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, header + body, 'utf-8');
   console.log(`\n✅ Wrote ${items.length} items → ${outPath}`);
