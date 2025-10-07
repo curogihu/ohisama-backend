@@ -1,6 +1,6 @@
 import type { Content } from "../types/member";
 
-export const content: Content[] = [
+export const tverContent: Content[] = [
   {
     "id": "tver-001",
     "title": "娘の命を奪ったヤツを殺すのは罪ですか？",
