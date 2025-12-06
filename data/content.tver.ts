@@ -12,7 +12,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nJO1 白岩瑠姫！密着インタビュー",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-002",
@@ -25,7 +25,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n新・火ドラ★イレブン『娘の命を奪ったヤツを殺すのは罪ですか？』齊藤京子・水野美紀 W主演インタビュー",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-003",
@@ -38,7 +38,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n赤ペン瀧川プレゼンツ 第一話のおさらい",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-004",
@@ -51,7 +51,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n制作発表会見",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-005",
@@ -64,7 +64,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nJO1 白岩瑠姫 ドラマ初出演を振り返る！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-006",
@@ -77,7 +77,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月12日(金)0:15 終了予定\n第104回 国仲涼子＆齊藤京子が芸能人の好きピを当てる！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-007",
@@ -90,7 +90,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n9分で追いつく！パーフェクトガイド（1〜6話）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-008",
@@ -103,7 +103,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】天才外科医・成瀬のふわとろオムライスは罪ですか？（15秒PR）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-009",
@@ -116,7 +116,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月9日(火)23:00 終了予定\n【10話予告】12月9日(火) 23時00分 ~ 放送予定（30秒PR）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-010",
@@ -129,7 +129,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【1話予告】10月7日(火) 23時15分 ~ 放送予定（30秒PR）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-011",
@@ -142,7 +142,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nまだ間に合う！第1～3話ダイジェスト",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-012",
@@ -155,7 +155,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月9日(火)1:15 終了予定\nテレ朝ドリフェスの裏で必死にサンリオコラボグッズ宣伝しまくっちゃいましたSP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-013",
@@ -168,7 +168,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nまだ間に合う！第1～2話ダイジェスト",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-014",
@@ -181,7 +181,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n「頑張らない女」が大集合！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-015",
@@ -194,7 +194,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月9日(火)23:00 終了予定\n#9 執刀医が告白／55歳のハニートラップ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-016",
@@ -207,7 +207,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】10月7日(火) 23時15分 ~ 放送予定（ティザー）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-017",
@@ -220,7 +220,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【全員集合ver.予告】10月7日(火) 23時15分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-018",
@@ -233,7 +233,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【TVer限定】天才外科医・成瀬のふわとろオムライスは罪ですか？",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-019",
@@ -246,7 +246,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nルームシェアするなら家事分担は？想像するほどムードが悪くなるダンスバラエティ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-020",
@@ -259,7 +259,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n赤ペン瀧川プレゼンツ 第3話までのおさらい",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-021",
@@ -272,7 +272,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#1 復讐のために、生まれた",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-022",
@@ -285,7 +285,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】「オトサツ Re:venge」スペシャルコメント動画",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-023",
@@ -298,7 +298,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】60秒PR解禁！11月3日（月）深夜放送開始",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-024",
@@ -311,7 +311,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】11月3日（月）深夜放送予定 15秒PR解禁！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-025",
@@ -324,7 +324,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#３ 危険な再会、拒めないキス",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-026",
@@ -337,7 +337,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】ED主題歌ver解禁！11月3日（月）深夜放送スタート",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-027",
@@ -350,7 +350,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#１ 泥沼不倫のはじまり、破滅への入り口",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-028",
@@ -363,7 +363,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】11月3日（月）深夜放送予定 30秒PR解禁！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-029",
@@ -376,23 +376,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#２ 嘘と裏切り、禁断の不倫地獄",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-030",
-    "title": "Google Pixel presents ANOTHER SKY",
-    "type": "movie",
-    "members": [
-      "katou-siho"
-    ],
-    "url": "https://tver.jp/episodes/eplgi55w7p",
-    "platform": "TVer",
-    "description": "12月6日(土)23:29 終了予定\nゲスト：山下美月／フランス・パリ",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
-  },
-  {
-    "id": "tver-031",
     "title": "悪いのはあなたです",
     "type": "movie",
     "members": [
@@ -402,10 +389,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n7分でわかる！「悪いのはあなたです」第１～３話ダイジェスト",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-032",
+    "id": "tver-031",
     "title": "悪いのはあなたです",
     "type": "movie",
     "members": [
@@ -415,10 +402,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月9日(火)1:28 終了予定\n#５ 不倫の代償、崩壊する信頼",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-033",
+    "id": "tver-032",
     "title": "悪いのはあなたです",
     "type": "movie",
     "members": [
@@ -428,10 +415,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n6分でわかる！第１話ダイジェスト",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-034",
+    "id": "tver-033",
     "title": "推しの殺人",
     "type": "movie",
     "members": [
@@ -441,10 +428,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月11日(木)23:58 終了予定\n#１０【知られざる事件の真相】",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-035",
+    "id": "tver-034",
     "title": "ハマダ歌謡祭★オオカミ少年",
     "type": "movie",
     "members": [
@@ -454,10 +441,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n冬の2時間SP★浜田＆ジェネ数原がチキンライス熱唱！大ヒット曲連発！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-036",
+    "id": "tver-035",
     "title": "セラピーゲーム",
     "type": "movie",
     "members": [
@@ -467,10 +454,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nエピソード1",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-037",
+    "id": "tver-036",
     "title": "セラピーゲーム",
     "type": "movie",
     "members": [
@@ -480,10 +467,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月11日(木)0:58 終了予定\nエピソード6",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-038",
+    "id": "tver-037",
     "title": "セラピーゲーム",
     "type": "movie",
     "members": [
@@ -493,10 +480,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】10月29日(水)24時59分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-039",
+    "id": "tver-038",
     "title": "セラピーゲーム",
     "type": "movie",
     "members": [
@@ -506,10 +493,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nエピソード3",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-040",
+    "id": "tver-039",
     "title": "セラピーゲーム",
     "type": "movie",
     "members": [
@@ -519,10 +506,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nエピソード2",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-041",
+    "id": "tver-040",
     "title": "晩酌の流儀４ ～秋冬編～",
     "type": "movie",
     "members": [
@@ -532,10 +519,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第1話 「焼き秋刀魚のネギ味噌添え」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-042",
+    "id": "tver-041",
     "title": "雨上がりの僕らについて",
     "type": "movie",
     "members": [
@@ -545,10 +532,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第1話 運命の再会!?かつて諦めた恋が動き出す",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-043",
+    "id": "tver-042",
     "title": "ブラザー・トラップ",
     "type": "movie",
     "members": [
@@ -558,10 +545,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月9日(火)11:59 終了予定\nTrap５「言えなかった想い…」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-044",
+    "id": "tver-043",
     "title": "地獄は善意で出来ている",
     "type": "movie",
     "members": [
@@ -571,10 +558,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#1 前科者たちに残酷な罠！謎の更生プログラム、始動",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-045",
+    "id": "tver-044",
     "title": "ブラザー・トラップ",
     "type": "movie",
     "members": [
@@ -584,10 +571,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nTrap２「再会、あの頃と変わらない人」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-046",
+    "id": "tver-045",
     "title": "ブラザー・トラップ",
     "type": "movie",
     "members": [
@@ -597,10 +584,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月9日(火)11:59 終了予定\nTrap４「素直な自分」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-047",
+    "id": "tver-046",
     "title": "ブラザー・トラップ",
     "type": "movie",
     "members": [
@@ -610,10 +597,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nTrap１「出会ってしまった特別な人」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-048",
+    "id": "tver-047",
     "title": "地獄は善意で出来ている",
     "type": "movie",
     "members": [
@@ -623,10 +610,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月12日(金)0:15 終了予定\n#8 クライマックス突入！親と娘の愛憎",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-049",
+    "id": "tver-048",
     "title": "地獄は善意で出来ている",
     "type": "movie",
     "members": [
@@ -636,7 +623,21 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】10月16日(木) 24時15分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
+  },
+  {
+    "id": "tver-049",
+    "title": "千原キャスティング株式会社",
+    "type": "movie",
+    "members": [
+      "kanemura-miku",
+      "hinatazaka"
+    ],
+    "url": "https://tver.jp/episodes/epc3e8eya6",
+    "platform": "TVer",
+    "description": "12月13日(土)23:59 終了予定\nミルクボーイ紅しょうがツートライブ！王者たちがガチ対決",
+    "thumbnail": "/placeholder.svg?height=180&width=320",
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-050",
@@ -650,7 +651,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】ダブルMISIA「アイノカタチ」｜さだまさし＆山口百恵「秋桜」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-051",
@@ -664,7 +665,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】ミラクルの集大成！『昭和再現ものまね』キンタロー。ジョニー志村",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-052",
@@ -678,7 +679,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n怪談師が踏み込むテレビの闇＆ナンマンついに本性を現す",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-053",
@@ -692,7 +693,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】奇跡のご本人コラボ3連発！大友康平＆前川陽子＆いいとも青年隊",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-054",
@@ -706,7 +707,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】一流オーケストラ×桑田佳祐＆玉置浩二が豪華共演！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-055",
@@ -720,7 +721,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】あゆ激似サラリーマン！福山雅治＆玉置浩二 奇跡の弾き語りコラボ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-056",
@@ -734,7 +735,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】爆笑！ミスチルものまね軍団｜感動！Adoアカペラコラボ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-057",
@@ -747,7 +748,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月10日(水)23:59 終了予定\nドラマあるある調べたら衝撃事実SP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-058",
@@ -760,7 +761,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月10日(水)21:59 終了予定\n#9 依存症母との対峙…親という宿命を超えろ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-059",
@@ -773,23 +774,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n②６～８話まとめ／９分　いよいよ最終章へ！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-060",
-    "title": "御上先生",
-    "type": "movie",
-    "members": [
-      "kageyama-yuuka"
-    ],
-    "url": "https://tver.jp/episodes/ep36fg6t5n",
-    "platform": "TVer",
-    "description": "12月6日(土)11:59 終了予定\nEpisode 2 -awareness-",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
-  },
-  {
-    "id": "tver-061",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -799,10 +787,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第2話 「不倫相手に届けるスマホ。」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-062",
+    "id": "tver-061",
     "title": "ESCAPE　それは誘拐のはずだった",
     "type": "movie",
     "members": [
@@ -812,10 +800,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n③９話まとめ／①～③で最終回に間に合う！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-063",
+    "id": "tver-062",
     "title": "御上先生",
     "type": "movie",
     "members": [
@@ -825,10 +813,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nEpisode 1 -destruction-",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-064",
+    "id": "tver-063",
     "title": "キリンチャレンジカップ2025",
     "type": "movie",
     "members": [
@@ -838,10 +826,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n日本×ブラジル フルマッチ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-065",
+    "id": "tver-064",
     "title": "シナントロープ",
     "type": "movie",
     "members": [
@@ -851,10 +839,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nまだ間に合う！5分で分かる！「シナントロープ」1～5話ダイジェスト",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-066",
+    "id": "tver-065",
     "title": "シナントロープ",
     "type": "movie",
     "members": [
@@ -864,23 +852,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#1 予測不能の青春ミステリー！「俺たちは何者かになる」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-067",
-    "title": "御上先生",
-    "type": "movie",
-    "members": [
-      "kageyama-yuuka"
-    ],
-    "url": "https://tver.jp/episodes/epgjgkjuzb",
-    "platform": "TVer",
-    "description": "12月6日(土)11:59 終了予定\nEpisode 3 -beginning-",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
-  },
-  {
-    "id": "tver-068",
+    "id": "tver-066",
     "title": "シナントロープ",
     "type": "movie",
     "members": [
@@ -890,10 +865,23 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】10月6日(月)23時06分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-069",
+    "id": "tver-067",
+    "title": "御上先生",
+    "type": "movie",
+    "members": [
+      "kageyama-yuuka"
+    ],
+    "url": "https://tver.jp/episodes/ephnjabyv5",
+    "platform": "TVer",
+    "description": "12月13日(土)11:59 終了予定\nEpisode 7 -delusion-",
+    "thumbnail": "/placeholder.svg?height=180&width=320",
+    "publishDate": "2025/12/07"
+  },
+  {
+    "id": "tver-068",
     "title": "バカリズムのちょっとバカりハカってみた！",
     "type": "movie",
     "members": [
@@ -903,10 +891,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nコスパ最強学生メシ＆宅配の限界SP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-070",
+    "id": "tver-069",
     "title": "ハコビヤ",
     "type": "movie",
     "members": [
@@ -916,7 +904,20 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第1話 「届け先住所、不明。」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
+  },
+  {
+    "id": "tver-070",
+    "title": "御上先生",
+    "type": "movie",
+    "members": [
+      "kageyama-yuuka"
+    ],
+    "url": "https://tver.jp/episodes/epqladuo2r",
+    "platform": "TVer",
+    "description": "12月13日(土)11:59 終了予定\nEpisode 6 -confession-",
+    "thumbnail": "/placeholder.svg?height=180&width=320",
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-071",
@@ -929,7 +930,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月8日(月)23:54 終了予定\n#9 恋か、それとも──「反逆の狼煙をあげろ」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-072",
@@ -938,11 +939,11 @@ export const tverContent: Content[] = [
     "members": [
       "kageyama-yuuka"
     ],
-    "url": "https://tver.jp/episodes/eptuxbby5a",
+    "url": "https://tver.jp/episodes/epsb1jch7d",
     "platform": "TVer",
-    "description": "12月6日(土)11:59 終了予定\nEpisode 4 -fate-",
+    "description": "12月13日(土)11:59 終了予定\nEpisode 5 -confidence-",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-073",
@@ -955,7 +956,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】「シナントロープ」ティザー映像",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-074",
@@ -968,7 +969,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【第1話予告】男女8人の青春群像ミステリー｜10月6日(月)23時06分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-075",
@@ -981,7 +982,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n①１～５話まとめ／１３分",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-076",
@@ -995,7 +996,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【嫁姑】うるさい姑に嫁が放った衝撃の一言（ep.12,13）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-077",
@@ -1009,7 +1010,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n宇垣美里＆さや香・新山と人見知りの恋愛術を激論!!",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-078",
@@ -1023,7 +1024,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月8日(月)16:59 終了予定\nやす子・リンダカラー∞登場！/ジャンプ名言でお悩み解決＆早口言葉",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-079",
@@ -1036,10 +1037,23 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "12月10日(水)7:59 終了予定\nTHE BOMBERMAN",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
     "id": "tver-080",
+    "title": "有吉ジャポンII ジロジロ有吉",
+    "type": "movie",
+    "members": [
+      "nibu-akari"
+    ],
+    "url": "https://tver.jp/episodes/epqfpjl2dw",
+    "platform": "TVer",
+    "description": "12月14日(日)0:57 終了予定\n28万人が熱狂！日本最大級の大道芸祭に密着！",
+    "thumbnail": "/placeholder.svg?height=180&width=320",
+    "publishDate": "2025/12/07"
+  },
+  {
+    "id": "tver-081",
     "title": "ありえへん∞世界",
     "type": "movie",
     "members": [
@@ -1049,10 +1063,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n群馬人vs埼玉人！大バトル（秘）生態調査スペシャル",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-081",
+    "id": "tver-082",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
@@ -1062,10 +1076,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nMrs. GREEN APPLE presents 『CEREMONY』",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-082",
+    "id": "tver-083",
     "title": "日テレ系音楽の祭典「ベストアーティスト2025」",
     "type": "movie",
     "members": [
@@ -1075,10 +1089,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nPART.1（15:55〜16:30頃）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   },
   {
-    "id": "tver-083",
+    "id": "tver-084",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
@@ -1088,6 +1102,6 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nPart1 : the engy / 日向坂46 / ATEEZ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/06"
+    "publishDate": "2025/12/07"
   }
 ];
