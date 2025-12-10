@@ -1043,19 +1043,6 @@ export const tverContent: Content[] = [
   },
   {
     "id": "tver-080",
-    "title": "ラヴィット！",
-    "type": "movie",
-    "members": [
-      "hirao-honoka"
-    ],
-    "url": "https://tver.jp/episodes/eprlzb695g",
-    "platform": "TVer",
-    "description": "12月10日(水)7:59 終了予定\nTHE BOMBERMAN",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2025/12/10"
-  },
-  {
-    "id": "tver-081",
     "title": "有吉ジャポンII ジロジロ有吉",
     "type": "movie",
     "members": [
@@ -1068,7 +1055,7 @@ export const tverContent: Content[] = [
     "publishDate": "2025/12/10"
   },
   {
-    "id": "tver-082",
+    "id": "tver-081",
     "title": "ありえへん∞世界",
     "type": "movie",
     "members": [
@@ -1081,7 +1068,7 @@ export const tverContent: Content[] = [
     "publishDate": "2025/12/10"
   },
   {
-    "id": "tver-083",
+    "id": "tver-082",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
@@ -1094,7 +1081,7 @@ export const tverContent: Content[] = [
     "publishDate": "2025/12/10"
   },
   {
-    "id": "tver-084",
+    "id": "tver-083",
     "title": "有吉ぃぃeeeee！～そうだ！今からお前んチでゲームしない？",
     "type": "movie",
     "members": [
@@ -1107,7 +1094,7 @@ export const tverContent: Content[] = [
     "publishDate": "2025/12/10"
   },
   {
-    "id": "tver-085",
+    "id": "tver-084",
     "title": "日テレ系音楽の祭典「ベストアーティスト2025」",
     "type": "movie",
     "members": [
@@ -1120,7 +1107,7 @@ export const tverContent: Content[] = [
     "publishDate": "2025/12/10"
   },
   {
-    "id": "tver-086",
+    "id": "tver-085",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
