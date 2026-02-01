@@ -12,7 +12,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)23:59 終了予定\n答えは線を引くだけ・・・なのに！ACEes浮所が嵐の歌詞をド忘れ大混乱!?",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-002",
@@ -25,7 +25,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月3日(火)1:25 終了予定\nピンチ対策会議＆今年使うテロップをあらかじめ作ろう!!",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-003",
@@ -38,7 +38,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第7回 ＜前編＞副音声ver 2026冬",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-004",
@@ -52,7 +52,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n家にあるもので遊ぶ超アナログ企画「有田哲平ぃぃeeeee！」第2弾",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-005",
@@ -65,7 +65,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)23:59 終了予定\n線を引くだけ・・・なのに齊藤京子の珍解答で騒然！唯一無二の神解答も飛び出す！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-006",
@@ -78,7 +78,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月7日(土)15:24 終了予定\n東京の落とし物＆激レア古着＆無料の野菜",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-007",
@@ -91,7 +91,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第7回 ＜後編＞2026冬",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-008",
@@ -104,7 +104,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n一人称で目立ちたい！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-009",
@@ -117,7 +117,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n爆笑問題・太田に質問ぶつけまくり＆日向坂46ドーム公演裏側 SP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-010",
@@ -130,7 +130,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第7回 ＜前編＞2026冬",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-011",
@@ -143,7 +143,7 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第7回 ＜後編＞副音声ver 2026冬",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-012",
@@ -156,49 +156,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nゲスト：齊藤京子／韓国",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
     "id": "tver-013",
-    "title": "離魂、トドケ",
-    "type": "movie",
-    "members": [
-      "katou-siho"
-    ],
-    "url": "https://tver.jp/episodes/ep44ge4m63",
-    "platform": "TVer",
-    "description": "2月1日(日)23:59 終了予定\n超能力で夫の不倫を暴け！SF×不倫ドラマ",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
-  },
-  {
-    "id": "tver-014",
-    "title": "離魂、トドケ",
-    "type": "movie",
-    "members": [
-      "katou-siho"
-    ],
-    "url": "https://tver.jp/episodes/epbmj2x8s4",
-    "platform": "TVer",
-    "description": "2月1日(日)23:59 終了予定\n【予告】『離魂、トドケ』特報コメント動画★不倫ドラマなのにSFコメディー！？",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
-  },
-  {
-    "id": "tver-015",
-    "title": "離魂、トドケ",
-    "type": "movie",
-    "members": [
-      "katou-siho"
-    ],
-    "url": "https://tver.jp/episodes/epoq9j0rwx",
-    "platform": "TVer",
-    "description": "2月1日(日)23:59 終了予定\n【予告】『離魂、トドケ』特報！予告映像★主演・加藤史帆★SF×夫婦ドラマ",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
-  },
-  {
-    "id": "tver-016",
     "title": "センビキ　答えは線を引くだけです",
     "type": "movie",
     "members": [
@@ -209,10 +170,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)23:59 終了予定\n＃２ 線を１本引くだけ！みんなで楽しむ新感覚クイズ【後半戦】",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-017",
+    "id": "tver-014",
     "title": "センビキ　答えは線を引くだけです",
     "type": "movie",
     "members": [
@@ -223,10 +184,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)23:59 終了予定\n＃１ 線を１本引くだけ！みんなで楽しむ新感覚クイズ【前半戦】",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-018",
+    "id": "tver-015",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -236,10 +197,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n9分でわかる！第1話～第3話ダイジェスト！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-019",
+    "id": "tver-016",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -249,10 +210,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月7日(土)20:59 終了予定\n第4話 人生に恋愛は必要？",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-020",
+    "id": "tver-017",
     "title": "千鳥かまいたちゴールデンアワー",
     "type": "movie",
     "members": [
@@ -262,10 +223,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【工場&職人神業クイズ】誰もが知るあの名品の製造工程を大公開！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-021",
+    "id": "tver-018",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -275,10 +236,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第3話 “若さ”は恋愛・仕事において重要！？",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-022",
+    "id": "tver-019",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -288,10 +249,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【第5話予告】2月7日(土)21時00分～放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-023",
+    "id": "tver-020",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -301,10 +262,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第2話 パンダから学ぶ、恋人を作る方法",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-024",
+    "id": "tver-021",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -314,10 +275,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【第3話予告】1月24日(土)21時00分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-025",
+    "id": "tver-022",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -327,23 +288,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【第4話予告】1月31日(土)21時00分～放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-026",
-    "title": "Golden SixTONES",
-    "type": "movie",
-    "members": [
-      "sasaki-mirei"
-    ],
-    "url": "https://tver.jp/episodes/epq8t4gjn4",
-    "platform": "TVer",
-    "description": "2月1日(日)20:59 終了予定\n生田斗真に試練…ダジャレ授賞式／YOSHIKI再降臨",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
-  },
-  {
-    "id": "tver-027",
+    "id": "tver-023",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -353,10 +301,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【第2話予告】1月17日(土)21時00分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-028",
+    "id": "tver-024",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -366,10 +314,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第1話 失恋にはペンギンが何羽必要ですか？",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-029",
+    "id": "tver-025",
     "title": "パンダより恋が苦手な私たち",
     "type": "movie",
     "members": [
@@ -379,10 +327,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】1月10日(土)21時00分 ~ 放送予定",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-030",
+    "id": "tver-026",
     "title": "ご馳走ファンファーレ",
     "type": "movie",
     "members": [
@@ -392,10 +340,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n京都競馬場で食べる絶品甘辛カレーパン",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-031",
+    "id": "tver-027",
     "title": "ゆかりくんはギャップがずるい",
     "type": "movie",
     "members": [
@@ -406,10 +354,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】ドラマ『ゆかりくんはギャップがずるい』30秒PV",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-032",
+    "id": "tver-028",
     "title": "ゆかりくんはギャップがずるい",
     "type": "movie",
     "members": [
@@ -420,10 +368,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【予告】ドラマ『ゆかりくんはギャップがずるい』60秒PV",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-033",
+    "id": "tver-029",
     "title": "ゆかりくんはギャップがずるい",
     "type": "movie",
     "members": [
@@ -434,10 +382,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nドラマ『ゆかりくんはギャップがずるい』放送直前ずるキュン♡スペシャル！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-034",
+    "id": "tver-030",
     "title": "きゅあ～♡をたっぷりお届け！『ぷちきゅあ～Precure Fairies～』新春SP",
     "type": "movie",
     "members": [
@@ -447,10 +395,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月3日(火)23:59 終了予定\nきゅあ～♡をたっぷりお届け！『ぷちきゅあ～Precure Fairies～』新春SP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-035",
+    "id": "tver-031",
     "title": "DREAM STAGE",
     "type": "movie",
     "members": [
@@ -460,10 +408,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【解説放送版】第２話 初ライブへ！泥臭くてドンくさい挑戦",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-036",
+    "id": "tver-032",
     "title": "THE突破ファイル",
     "type": "movie",
     "members": [
@@ -473,10 +421,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n空港税関アン ミカvs密輸ピアニスト!国税局vs脱税社長・河内大和!",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-037",
+    "id": "tver-033",
     "title": "DREAM STAGE",
     "type": "movie",
     "members": [
@@ -486,10 +434,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n第２話 初ライブへ！泥臭くてドンくさい挑戦",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-038",
+    "id": "tver-034",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -500,10 +448,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#4",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-039",
+    "id": "tver-035",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season5",
     "type": "movie",
     "members": [
@@ -514,10 +462,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月3日(火)1:24 終了予定\n【絶品グルメ&笑いが満載】オードリー春日がプロデューサーの旅番組",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-040",
+    "id": "tver-036",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -528,10 +476,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#2",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-041",
+    "id": "tver-037",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -542,10 +490,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#1",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-042",
+    "id": "tver-038",
     "title": "ラヴィット！",
     "type": "movie",
     "members": [
@@ -555,10 +503,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月4日(水)7:59 終了予定\nチーム対抗！スーパーモノマネito",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-043",
+    "id": "tver-039",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -569,10 +517,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#6",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-044",
+    "id": "tver-040",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -583,10 +531,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#3",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-045",
+    "id": "tver-041",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -597,10 +545,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】ダブルMISIA「アイノカタチ」｜さだまさし＆山口百恵「秋桜」",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-046",
+    "id": "tver-042",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -612,10 +560,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#8",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-047",
+    "id": "tver-043",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -626,10 +574,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】ミラクルの集大成！『昭和再現ものまね』キンタロー。ジョニー志村",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-048",
+    "id": "tver-044",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -640,10 +588,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#9",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-049",
+    "id": "tver-045",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -654,10 +602,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#5",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-050",
+    "id": "tver-046",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -668,10 +616,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#11",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-051",
+    "id": "tver-047",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -682,10 +630,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#12",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-052",
+    "id": "tver-048",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -696,10 +644,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】奇跡のご本人コラボ3連発！大友康平＆前川陽子＆いいとも青年隊",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-053",
+    "id": "tver-049",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -710,10 +658,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】一流オーケストラ×桑田佳祐＆玉置浩二が豪華共演！",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-054",
+    "id": "tver-050",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -725,10 +673,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#7",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-055",
+    "id": "tver-051",
     "title": "春日ロケーション　～春日プロデューサーの旅番組～　Season3",
     "type": "movie",
     "members": [
@@ -739,10 +687,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n#10",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-056",
+    "id": "tver-052",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -753,10 +701,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】あゆ激似サラリーマン！福山雅治＆玉置浩二 奇跡の弾き語りコラボ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-057",
+    "id": "tver-053",
     "title": "いま本当に似てる歌まねランキング",
     "type": "movie",
     "members": [
@@ -767,10 +715,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【歌まねコラボランキング公式】爆笑！ミスチルものまね軍団｜感動！Adoアカペラコラボ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-058",
+    "id": "tver-054",
     "title": "バカリズムのちょっとバカりハカってみた！",
     "type": "movie",
     "members": [
@@ -780,10 +728,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n超便利＆お得！生活の裏技63連発＆10人大家族に密着SP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-059",
+    "id": "tver-055",
     "title": "池上彰の報道特番",
     "type": "movie",
     "members": [
@@ -793,10 +741,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n池上彰×日本のリーダー 昭和100年",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-060",
+    "id": "tver-056",
     "title": "名探偵コナン",
     "type": "movie",
     "members": [
@@ -806,10 +754,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nTVアニメ『名探偵コナン』 30年目の情報解禁(ヘッドライン)〜2026年が楽しみすぎてバーローSP〜",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-061",
+    "id": "tver-057",
     "title": "キリンチャレンジカップ2025",
     "type": "movie",
     "members": [
@@ -819,10 +767,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n日本×ブラジル フルマッチ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-062",
+    "id": "tver-058",
     "title": "バカリズムのちょっとバカりハカってみた！",
     "type": "movie",
     "members": [
@@ -832,10 +780,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n日本一危険な神社＆「大谷翔平」超え球速＆衝撃温泉SP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-063",
+    "id": "tver-059",
     "title": "バカリズムのちょっとバカりハカってみた！",
     "type": "movie",
     "members": [
@@ -845,10 +793,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nあなたの家も危ない火事の衝撃の原因は？ピンチ解決SP",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-064",
+    "id": "tver-060",
     "title": "aimaiMe",
     "type": "movie",
     "members": [
@@ -859,10 +807,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【嫁姑】うるさい姑に嫁が放った衝撃の一言（ep.12,13）",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-065",
+    "id": "tver-061",
     "title": "ラブ!!Jリーグ",
     "type": "movie",
     "members": [
@@ -873,10 +821,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)18:00 終了予定\n新春SP第2弾 「歌うんだJ」大熱唱！渾身の一曲",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-066",
+    "id": "tver-062",
     "title": "怪奇ファイル2026冬　見えてしまった…招かれざるモノたち",
     "type": "movie",
     "members": [
@@ -888,10 +836,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n齋藤陽（テレビ東京アナウンサー）のコメント 本編全話の見どころ紹介",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-067",
+    "id": "tver-063",
     "title": "怪奇ファイル2026冬　見えてしまった…招かれざるモノたち",
     "type": "movie",
     "members": [
@@ -903,10 +851,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n正源司陽子（日向坂46）のコメント 本編全話の見どころ紹介",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-068",
+    "id": "tver-064",
     "title": "怪奇ファイル2026冬　見えてしまった…招かれざるモノたち",
     "type": "movie",
     "members": [
@@ -918,10 +866,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n藤嶌果歩（日向坂46）のコメント 本編全話の見どころ紹介",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-069",
+    "id": "tver-065",
     "title": "怪奇ファイル2026冬　見えてしまった…招かれざるモノたち",
     "type": "movie",
     "members": [
@@ -933,10 +881,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【美大生の戦慄体験】見どころ紹介",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-070",
+    "id": "tver-066",
     "title": "怪奇ファイル2026冬　見えてしまった…招かれざるモノたち",
     "type": "movie",
     "members": [
@@ -948,10 +896,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【元神主の戦慄体験】見どころ紹介",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-071",
+    "id": "tver-067",
     "title": "怪奇ファイル2026冬　見えてしまった…招かれざるモノたち",
     "type": "movie",
     "members": [
@@ -963,10 +911,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n【特殊清掃員の戦慄体験】見どころ紹介",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-072",
+    "id": "tver-068",
     "title": "怪奇ファイル2026冬　見えてしまった…招かれざるモノたち",
     "type": "movie",
     "members": [
@@ -978,23 +926,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\n本編全話の見どころ紹介",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-073",
-    "title": "有吉ぃぃeeeee！～そうだ！今からお前んチでゲームしない？",
-    "type": "movie",
-    "members": [
-      "nibu-akari"
-    ],
-    "url": "https://tver.jp/episodes/ep75kn5w2n",
-    "platform": "TVer",
-    "description": "2月1日(日)22:47 終了予定\n【桃鉄お正月SP】2026桃鉄王は誰だ！ガチ有吉VS矢作VS春日",
-    "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
-  },
-  {
-    "id": "tver-074",
+    "id": "tver-069",
     "title": "ゲームチェンジ",
     "type": "movie",
     "members": [
@@ -1004,10 +939,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nEpisode2",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-075",
+    "id": "tver-070",
     "title": "ゲームチェンジ",
     "type": "movie",
     "members": [
@@ -1017,10 +952,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nEpisode3",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-076",
+    "id": "tver-071",
     "title": "ゲームチェンジ",
     "type": "movie",
     "members": [
@@ -1030,10 +965,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月5日(木)22:59 終了予定\nEpisode4",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-077",
+    "id": "tver-072",
     "title": "ゲームチェンジ",
     "type": "movie",
     "members": [
@@ -1043,10 +978,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nEpisode1",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-078",
+    "id": "tver-073",
     "title": "偽パンサーのながさき道場やぶり",
     "type": "movie",
     "members": [
@@ -1056,10 +991,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nサッカー・フェンシング・ボルダリング",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-079",
+    "id": "tver-074",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
@@ -1069,10 +1004,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nMrs. GREEN APPLE presents 『CEREMONY』",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-080",
+    "id": "tver-075",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
@@ -1082,10 +1017,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)18:59 終了予定\n【Part.1】M!LK★キュースト★STARGLOW★大事MANブラザーズ立川俊之",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-081",
+    "id": "tver-076",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
@@ -1095,10 +1030,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)18:59 終了予定\n【Part.4】ミセス★SUPER BEAVER★ファンモン★SEAMO",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-082",
+    "id": "tver-077",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
@@ -1108,10 +1043,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)18:59 終了予定\n【Part.2】FRUITS ZIPPER★WEST.★日向坂★KANA-BOON",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-083",
+    "id": "tver-078",
     "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
     "type": "movie",
     "members": [
@@ -1121,10 +1056,10 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "配信終了まで1週間以上\nPart1 : the engy / 日向坂46 / ATEEZ",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   },
   {
-    "id": "tver-084",
+    "id": "tver-079",
     "title": "CDTV ライブ! ライブ!",
     "type": "movie",
     "members": [
@@ -1134,6 +1069,6 @@ export const tverContent: Content[] = [
     "platform": "TVer",
     "description": "2月2日(月)18:59 終了予定\n【Part.3】Da-iCE★鶴and亀★milet★氣志團★ピコ太郎",
     "thumbnail": "/placeholder.svg?height=180&width=320",
-    "publishDate": "2026/02/01"
+    "publishDate": "2026/02/02"
   }
 ];
